@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+.container{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 15px;
+    /* background: transparent; */
+    background: whitesmoke;
+    /* box-shadow: 0px 3px 15px rgba(113, 115, 119, .5); */
+    box-shadow: 0px 3px 15px rgba(255, 255, 255, .5);
+}
+input{
+    width: 95%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px ;
+    display: block;
+    margin: 10px auto;
+    /* background: transparent; */
+    /* background: linear-gradient(45deg, #a8a5a5, #667a95); */
+    background: #d6d8da;
+    box-shadow: inset 0px 3px 15px rgba(84, 84, 84, .2);
+    font-size: 50px;
+    text-align: right;
+    cursor: auto;
+    /* color: whitesmoke; */
+    color: linear-gradient(45deg, #a8a5a5, #667a95);
+}
+input::placeholder{
+    /* color: whitesmoke; */
+    color: linear-gradient(45deg, #a8a5a5, #667a95);
+}
+input:focus{
+    outline-color: #fb7c14;
+    /* border: 2px solid #fb7c14; */
+    box-shadow: 0px 6px 30px rgba(84, 84, 84, .2);
+}
+button{
+    border: none;
+    width: 20%;
+    height: 60px;
+    margin: 5px;
+    border-radius: 20px;
+    /* background: transparent; */
+    background: whitesmoke;
+    /* color: whitesmoke; */
+    font-size: 20px;
+    /* box-shadow: -8px -8px 15px rgba(255, 255, 255, .05); */
+    box-shadow: -8px -8px 15px rgba(113, 115, 119, .1);
+    cursor: pointer;
+}
+button:hover{
+    box-shadow:inset -8px -8px 15px rgba(113, 115, 119, 0.1) ;
+}
+.btn{
+    display: inline-flex;
+    /* align-items: center; */
+    width: 100%;
+    justify-content: space-between;
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 10px auto 0;
+}
+.equalBtn{
+    background: #fb7c14;
+}
+.operator{
+    color: #fb7c14;
+}
