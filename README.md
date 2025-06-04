@@ -64,7 +64,3 @@ Contributions are welcome! If you'd like to improve or add more projects, please
 3. Commit your changes (```git commit -m 'Add some feature'```)
 4. Push to the branch (```git push origin feature/your-feature```)
 5. Open a pull request
-
-## License
-
-This repository is licensed under the MIT License. Feel free to use and modify the projects as you wish.
